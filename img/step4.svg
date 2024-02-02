@@ -1,0 +1,26 @@
+<svg width="330" height="280" viewBox="0 0 330 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M179.5 114.497H194.5V108.872L207.625 123.872L194.5 138.872V133.247H183.25" stroke="#FDBC14" stroke-width="3" stroke-linejoin="round"/>
+<path d="M140.125 142.622H134.5V148.247L121.375 133.247L134.5 118.247V123.872H140.125" stroke="#FDBC14" stroke-width="3" stroke-linejoin="round"/>
+<path d="M175.75 114.497H164.5" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M162.625 142.622H149.5" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M172 123.872H149.5" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M179.5 133.247H158.875" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M194.5 103.247V86.3716H143.875V157.622H194.5V144.497" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M143.875 97.6216H194.5" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M149.5 91.9966H153.25" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M155.125 91.9966H158.875" stroke="#FDBC14" stroke-width="3" stroke-miterlimit="10"/>
+<g filter="url(#filter0_f_57_289)">
+<rect x="100" y="100.002" width="130" height="80" fill="url(#paint0_radial_57_289)"/>
+</g>
+<defs>
+<filter id="filter0_f_57_289" x="0" y="0.00195312" width="330" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_57_289"/>
+</filter>
+<radialGradient id="paint0_radial_57_289" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(165 140.002) rotate(90) scale(40 65)">
+<stop stop-color="#FF9A02"/>
+<stop offset="1" stop-color="#FF9A02" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

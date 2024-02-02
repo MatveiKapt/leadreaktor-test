@@ -1,0 +1,26 @@
+<svg width="261" height="221" viewBox="0 0 261 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M141.961 90.1611H153.772V85.732L164.106 97.543L153.772 109.354V104.925H144.913" stroke="#FDBC14" stroke-width="2.3622" stroke-linejoin="round"/>
+<path d="M110.957 112.307H106.528V116.736L96.1929 104.925L106.528 93.1139V97.543H110.957" stroke="#FDBC14" stroke-width="2.3622" stroke-linejoin="round"/>
+<path d="M139.008 90.1611H130.15" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M128.673 112.307H118.339" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M136.055 97.543H118.339" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M141.961 104.925H125.72" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M153.772 81.3029V68.0155H113.909V124.118H153.772V113.783" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M113.909 76.8737H153.772" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M118.339 72.4446H121.291" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<path d="M122.768 72.4446H125.72" stroke="#FDBC14" stroke-width="2.3622" stroke-miterlimit="10"/>
+<g filter="url(#filter0_f_119_2064)">
+<rect x="79.3622" y="78.748" width="102.362" height="62.9921" fill="url(#paint0_radial_119_2064)"/>
+</g>
+<defs>
+<filter id="filter0_f_119_2064" x="0.622047" y="0.00787354" width="259.843" height="220.472" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="39.3701" result="effect1_foregroundBlur_119_2064"/>
+</filter>
+<radialGradient id="paint0_radial_119_2064" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(130.543 110.244) rotate(90) scale(31.4961 51.1811)">
+<stop stop-color="#FF9A02"/>
+<stop offset="1" stop-color="#FF9A02" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

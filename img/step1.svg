@@ -1,0 +1,33 @@
+<svg width="330" height="280" viewBox="0 0 330 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M137.08 84.002H133.313C129.822 84.002 127 86.8238 127 90.3151V134.126C127 137.618 129.822 140.439 133.313 140.439H196.812C200.303 140.439 203.125 137.618 203.125 134.126V90.3151C203.125 86.8238 200.303 84.002 196.812 84.002H137.08Z" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M172.938 145.689V150.939H157.188V145.689" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M127 129.939H203.125" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M162.438 135.189H167.688" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M179.5 157.502H150.625" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M150.625 157.502V156.189C150.625 153.291 152.976 150.939 155.875 150.939H174.25C177.149 150.939 179.5 153.291 179.5 156.189V157.502" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M141.438 124.689V114.189C141.438 113.468 142.028 112.877 142.75 112.877H148C148.722 112.877 149.312 113.468 149.312 114.189V124.689" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M167.688 124.689V115.502C167.688 114.78 168.278 114.189 169 114.189H174.25C174.972 114.189 175.562 114.78 175.562 115.502V124.689" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M154.562 124.689V108.939C154.562 108.218 155.153 107.627 155.875 107.627H161.125C161.847 107.627 162.438 108.218 162.438 108.939V124.689" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180.812 124.689V107.627C180.812 106.905 181.403 106.314 182.125 106.314H187.375C188.097 106.314 188.688 106.905 188.688 107.627V124.689" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M184.75 99.752C186.925 99.752 188.688 97.9891 188.688 95.8145C188.688 93.6398 186.925 91.877 184.75 91.877C182.575 91.877 180.812 93.6398 180.812 95.8145C180.812 97.9891 182.575 99.752 184.75 99.752Z" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M158.5 101.064C160.675 101.064 162.438 99.3016 162.438 97.127C162.438 94.9523 160.675 93.1895 158.5 93.1895C156.325 93.1895 154.562 94.9523 154.562 97.127C154.562 99.3016 156.325 101.064 158.5 101.064Z" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M171.625 107.627C173.8 107.627 175.562 105.864 175.562 103.689C175.562 101.515 173.8 99.752 171.625 99.752C169.45 99.752 167.688 101.515 167.688 103.689C167.688 105.864 169.45 107.627 171.625 107.627Z" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145.375 106.314C147.55 106.314 149.312 104.552 149.312 102.377C149.312 100.202 147.55 98.4395 145.375 98.4395C143.2 98.4395 141.438 100.202 141.438 102.377C141.438 104.552 143.2 106.314 145.375 106.314Z" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M154.851 98.584L149.023 100.92" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M181.377 97.8359L174.998 101.668" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M168.108 101.931L162.018 98.8857" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#filter0_f_57_233)">
+<rect x="100" y="100.002" width="130" height="80" fill="url(#paint0_radial_57_233)"/>
+</g>
+<defs>
+<filter id="filter0_f_57_233" x="0" y="0.00195312" width="330" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_57_233"/>
+</filter>
+<radialGradient id="paint0_radial_57_233" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(165 140.002) rotate(90) scale(40 65)">
+<stop stop-color="#FF9A02"/>
+<stop offset="1" stop-color="#FF9A02" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

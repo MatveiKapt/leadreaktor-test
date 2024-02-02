@@ -1,0 +1,25 @@
+<svg width="330" height="280" viewBox="0 0 330 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M168.562 103.758V93.127H176.438L160.688 80.002L144.938 93.127H152.812V103.745" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126.562 103.627L155.543 111.436L160.688 112.814" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.688 125.506V161.377L126.562 152.189V125.27" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194.812 103.627L165.832 111.436L160.688 112.814" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194.812 125.27V152.189L160.688 161.377V125.506" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M147.562 98.7838L126.562 103.627" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194.812 103.627L173.812 98.7838" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.688 112.814L167.25 127.252L201.375 118.064L194.812 103.627" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.688 112.814L154.125 127.252L120 118.064L126.562 103.627" stroke="#FDBC14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#filter0_f_57_274)">
+<rect x="100" y="100.002" width="130" height="80" fill="url(#paint0_radial_57_274)"/>
+</g>
+<defs>
+<filter id="filter0_f_57_274" x="0" y="0.00195312" width="330" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_57_274"/>
+</filter>
+<radialGradient id="paint0_radial_57_274" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(165 140.002) rotate(90) scale(40 65)">
+<stop stop-color="#FF9A02"/>
+<stop offset="1" stop-color="#FF9A02" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

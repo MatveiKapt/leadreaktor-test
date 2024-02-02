@@ -1,0 +1,25 @@
+<svg width="260" height="221" viewBox="0 0 260 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M132.805 81.7057V73.3346H139.006L126.604 63L114.203 73.3346H120.403V81.6954" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M99.7341 81.6024L122.553 87.7515L126.604 88.8366" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126.604 98.8302V127.075L99.7341 119.841V98.6441" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M153.474 81.6024L130.655 87.7515L126.604 88.8366" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M153.474 98.6441V119.841L126.604 127.075V98.8302" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M116.27 77.7889L99.7341 81.6024" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M153.474 81.6024L136.939 77.7889" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126.604 88.8366L131.772 100.205L158.642 92.9705L153.474 81.6024" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126.604 88.8366L121.437 100.205L94.5668 92.9705L99.7341 81.6024" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#filter0_f_119_2027)">
+<rect x="78.8188" y="78.748" width="102.362" height="62.9921" fill="url(#paint0_radial_119_2027)"/>
+</g>
+<defs>
+<filter id="filter0_f_119_2027" x="0.0786285" y="0.00788879" width="259.843" height="220.472" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="39.3701" result="effect1_foregroundBlur_119_2027"/>
+</filter>
+<radialGradient id="paint0_radial_119_2027" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(130 110.244) rotate(90) scale(31.4961 51.1811)">
+<stop stop-color="#FF9A02"/>
+<stop offset="1" stop-color="#FF9A02" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

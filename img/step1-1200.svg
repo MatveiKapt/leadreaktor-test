@@ -1,0 +1,33 @@
+<svg width="261" height="221" viewBox="0 0 261 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M108.559 66.1496H105.593C102.844 66.1496 100.622 68.3715 100.622 71.1206V105.618C100.622 108.367 102.844 110.589 105.593 110.589H155.592C158.341 110.589 160.563 108.367 160.563 105.618V71.1206C160.563 68.3715 158.341 66.1496 155.592 66.1496H108.559Z" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M136.793 114.722V118.856H124.392V114.722" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100.622 102.321H160.563" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M128.526 106.455H132.659" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M141.961 124.024H119.224" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M119.224 124.024V122.99C119.224 120.708 121.076 118.856 123.358 118.856H137.827C140.109 118.856 141.961 120.708 141.961 122.99V124.024" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M111.99 98.187V89.9193C111.99 89.3509 112.455 88.8858 113.024 88.8858H117.157C117.726 88.8858 118.191 89.3509 118.191 89.9193V98.187" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132.659 98.187V90.9527C132.659 90.3843 133.125 89.9193 133.693 89.9193H137.827C138.395 89.9193 138.86 90.3843 138.86 90.9527V98.187" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.325 98.187V85.7854C122.325 85.217 122.79 84.752 123.358 84.752H127.492C128.061 84.752 128.526 85.217 128.526 85.7854V98.187" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M142.994 98.187V84.752C142.994 84.1836 143.459 83.7185 144.028 83.7185H148.161C148.73 83.7185 149.195 84.1836 149.195 84.752V98.187" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146.094 78.5512C147.807 78.5512 149.195 77.1631 149.195 75.4508C149.195 73.7385 147.807 72.3504 146.094 72.3504C144.382 72.3504 142.994 73.7385 142.994 75.4508C142.994 77.1631 144.382 78.5512 146.094 78.5512Z" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M125.425 79.5846C127.137 79.5846 128.526 78.1965 128.526 76.4842C128.526 74.7719 127.137 73.3839 125.425 73.3839C123.713 73.3839 122.325 74.7719 122.325 76.4842C122.325 78.1965 123.713 79.5846 125.425 79.5846Z" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M135.76 84.752C137.472 84.752 138.86 83.3639 138.86 81.6516C138.86 79.9393 137.472 78.5512 135.76 78.5512C134.048 78.5512 132.659 79.9393 132.659 81.6516C132.659 83.3639 134.048 84.752 135.76 84.752Z" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M115.091 83.7185C116.803 83.7185 118.191 82.3304 118.191 80.6181C118.191 78.9058 116.803 77.5177 115.091 77.5177C113.378 77.5177 111.99 78.9058 111.99 80.6181C111.99 82.3304 113.378 83.7185 115.091 83.7185Z" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.552 77.6315L117.963 79.4711" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M143.438 77.0425L138.416 80.0602" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M132.99 80.2668L128.195 77.8691" stroke="#FDBC14" stroke-width="2.3622" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#filter0_f_123_2796)">
+<rect x="79.3622" y="78.748" width="102.362" height="62.9921" fill="url(#paint0_radial_123_2796)"/>
+</g>
+<defs>
+<filter id="filter0_f_123_2796" x="0.622047" y="0.00788879" width="259.843" height="220.472" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="39.3701" result="effect1_foregroundBlur_123_2796"/>
+</filter>
+<radialGradient id="paint0_radial_123_2796" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(130.543 110.244) rotate(90) scale(31.4961 51.1811)">
+<stop stop-color="#FF9A02"/>
+<stop offset="1" stop-color="#FF9A02" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

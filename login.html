@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leadreaktor - Sign in</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body login-register-body" style="background-color: #181818">
+  <div class="popup-overlay">
+
+
+    <div class="popup-blur">
+      <section class="popup popup--login">
+        <p class="popup__top-text">
+          <span>Glad to see you</span> <br>
+          Enter your email address and password to log in
+        </p>
+  
+        <div class="popup__inner">
+          <p class="popup__logo logo">LEAD<span>REAKTOR</span></p>
+  
+          <form class="popup__form form" id="login-form" action="#" method="POST">
+            <fieldset class="form__fieldset">
+              <legend class="form__legend">
+                <h2>Sign in</h2>
+              </legend>
+  
+              <ul class="form__list">
+                <li class="form__list-item">
+                  <label class="form__label" for="login-email">Email</label>
+  
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input" id="login-email" type="email" placeholder="Your email address" required>
+                    </div>
+                  </div>
+                </li>
+  
+                <li class="form__list-item">
+                  <label class="form__label" for="login-password">Password</label>
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input form__input--password" id="login-password" type="password" placeholder="Your password" required>
+    
+                      <button class="form__show-password-button" id="show-login-password" type="button" aria-label="Show password"></button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+  
+              <div class="form__inner">
+                <div class="remember-checkbox-wrapper">
+                  <input class="form__checkbox visually-hidden" id="form-checkbox" type="checkbox">
+                  <label class="form__label checkbox-label" for="form-checkbox">Remember Me</label>
+                </div>
+  
+                <button class="forgot form__label" type="button">Forgot Password?</button>
+              </div>
+            </fieldset>
+  
+            <div class="g-recaptcha" data-sitekey="0000000000000000000000"></div>
+  
+            <button class="form__submit button button--yellow" type="submit">Submit</button>
+          </form>
+  
+          <p class="popup__bottom">Don’t have an account?  <a class="register-button" href="signup.html">Sign up</a></p>
+        </div>
+  
+        <a class="popup__close-button" href="index.html">
+          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.646446 4.14645C0.451184 4.34171 0.451184 4.65829 0.646446 4.85355L3.82843 8.03553C4.02369 8.2308 4.34027 8.2308 4.53553 8.03553C4.7308 7.84027 4.7308 7.52369 4.53553 7.32843L1.70711 4.5L4.53553 1.67157C4.7308 1.47631 4.7308 1.15973 4.53553 0.964466C4.34027 0.769204 4.02369 0.769204 3.82843 0.964466L0.646446 4.14645ZM11 4L1 4V5L11 5V4Z" fill="white"/>
+            </svg>
+          Back
+        </a>
+      </section>
+  
+      <section class="popup popup--recovery">
+        <div class="popup__inner">
+          <p class="popup__logo logo">LEAD<span>REAKTOR</span></p>
+  
+          <form class="popup__form form" id="recovery-form" action="#" method="POST">
+            <fieldset class="form__fieldset">
+              <legend class="form__legend">
+                <h2>Account recovery</h2>
+              </legend>
+  
+              <p class="recovery-description">
+                To protect your account, we need to make sure it's really you trying to log in.
+              </p>
+  
+              <ul class="form__list">
+                <li class="form__list-item">
+                  <label class="form__label" for="register-email">Email</label>
+  
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input" id="revovery-email" type="email" placeholder="Your email address" required>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </fieldset>
+  
+            <button class="form__submit button button--yellow" type="submit">Recovery</button>
+          </form>
+        </div>
+  
+        <button class="popup__close-button" id="recovery-back-button" type="button">
+          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.646446 4.14645C0.451184 4.34171 0.451184 4.65829 0.646446 4.85355L3.82843 8.03553C4.02369 8.2308 4.34027 8.2308 4.53553 8.03553C4.7308 7.84027 4.7308 7.52369 4.53553 7.32843L1.70711 4.5L4.53553 1.67157C4.7308 1.47631 4.7308 1.15973 4.53553 0.964466C4.34027 0.769204 4.02369 0.769204 3.82843 0.964466L0.646446 4.14645ZM11 4L1 4V5L11 5V4Z" fill="white"/>
+            </svg>
+          Back
+          </button>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/popup.js"></script>
+  <script src="js/form.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+
+  <script>
+    const loginEmailInput = document.querySelector('#login-email');
+    loginEmailInput.value = localStorage.getItem('email');
+  </script>
+</body>
+</html>

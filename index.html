@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leadreaktor</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body class="body">
+  <header class="body__header header">
+    <div class="header__inner container">
+      <a class="header__logo logo" href="#preview">LEAD<span>REAKTOR</span></a>
+
+      <a class="header__button button button--yellow login-button" href="login.html"><span>Sign in</span></a>
+    </div>
+  </header>
+
+  <main class="body__main main">
+    <section class="main__preview preview" id="preview">
+      <div class="preview__video-wrapper">
+        <video class="preview__video" autoplay muted playsinline loop>
+          <source src="video/preview.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+  var videoElements = document.querySelectorAll('video');
+
+  videoElements.forEach(function(videoElement) {
+    videoElement.controls = false;
+
+    videoElement.addEventListener('play', function () {
+      this.controls = false;
+    });
+
+    videoElement.addEventListener('pause', function () {
+      this.controls = false;
+    });
+  });
+});
+
+document.addEventListener('touchstart', () => {
+    document.querySelectorAll('video').forEach(video => video.play())
+})
+      </script>
+<!-- <script>
+  /**
+ * detect iOS/iPad/macOS Low Power Mode, Chromium Energy Saver Mode, and maybe future Firefox power saving mode
+ * @async
+ * @method detectPowerSavingMode
+ * @returns {boolean|undefined} return `undefined` if not sure
+ */
+function detectPowerSavingMode() {
+  // for iOS/iPadOS Safari, and maybe MacBook macOS Safari (not tested)
+  if (/(iP(?:hone|ad|od)|Mac OS X)/.test(navigator.userAgent)) {
+    // In Low Power Mode, cumulative delay effect happens on setInterval()
+    return new Promise((resolve) => {
+      let fps = 60;
+      let interval = 1000 / fps;
+      let numFrames = 30;
+      let startTime = performance.now();
+      let i = 0;
+      let handle = setInterval(() => {
+        if (i < numFrames) {
+          i++;
+          return;
+        }
+        clearInterval(handle);
+        let actualInterval = (performance.now() - startTime) / numFrames;
+        let ratio = actualInterval / interval; // 1.3x or more in Low Power Mode, 1.1x otherwise
+        // alert(actualInterval+' '+interval);
+        console.log(actualInterval, interval, ratio);
+        resolve(ratio > 1.3);
+      }, interval);
+    });
+  }
+  // for Safari, Chromium, and maybe future Firefox
+  return detectFrameRate().then((frameRate) => {
+    // In Battery Saver Mode frameRate will be about 30fps or 20fps,
+    // otherwise frameRate will be closed to monitor refresh rate (typically 60Hz)
+    if (frameRate < 34) {
+      return true;
+    }
+    // FIXME fallback to regard as Low Power Mode when battery power is low (down to 20%)
+    else if (navigator.getBattery) {
+      return navigator.getBattery().then((battery) => {
+        return (!battery.charging && battery.level <= 0.2) ? true : false;
+      });
+    }
+    return undefined;
+  });
+}
+
+function detectFrameRate() {
+  return new Promise((resolve) => {
+    let numFrames = 30;
+    let startTime = performance.now();
+    let i = 0;
+    let tick = () => {
+      if (i < numFrames) {
+        i++;
+        requestAnimationFrame(tick);
+        return;
+      }
+      let frameRate = numFrames / ((performance.now() - startTime) / 1000);
+      resolve(frameRate);
+    };
+    requestAnimationFrame(() => {
+      tick();
+    });
+  });
+}
+  
+      
+          detectPowerSavingMode().then((isPowerSavingMode) => {
+              const videoElement = document.querySelector('video');
+              if (!isPowerSavingMode) {
+                
+              }
+          });
+  </script> -->
+  
+
+
+      <div class="preview__inner container">
+        <div class="preview__content">
+          <h1 class="preview__title">Top Affiliate Network <span><br> and Direct Advertiser</span> <br> in the Nutra vertical</h1>
+          <!-- <p class="preview__description">Your key to wealth</p> -->
+  
+          <ul class="preview__buttons-list">
+            <li class="preview__buttons-item">
+              <a class="button button--yellow login-button" href="login.html">Sign in</a>
+            </li>
+  
+            <!-- <li class="preview__buttons-item">
+              <a class="button button--black register-button" href="signup.html">Sign up</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="main__about about">
+      <div class="about__inner container">
+        <h2 class="about__title title">About us</h2>
+
+        <p class="about__text text">
+          Since 2016, Leadreaktor has dominated the Nutra vertical.<br class="desktop-br">
+          Fully-owned production, fulfillment and call centers are just the tip of the iceberg.<br class="desktop-br">
+          Our products have already conquered Europe, Latin America and Africa! 
+        </p>
+
+        <dl class="about__advantages">
+          <div class="about__advantages-inner">
+            <div class="about__advantages-item">
+              <dt>8 years</dt>
+              <dd>On the market</dd>
+            </div>
+  
+            <div class="about__advantages-item">
+              <dt>26+</dt>
+              <dd>Active geos</dd>
+            </div>
+  
+            <div class="about__advantages-item">
+              <dt>700+</dt>
+              <dd>Offers</dd>
+            </div>
+  
+            <div class="about__advantages-item">
+              <dt>$315M +</dt>
+              <dd>Paid</dd>
+            </div>
+  
+            <div class="about__advantages-item">
+              <dt>Over 20K+</dt>
+              <dd>Affiliates earn with us</dd>
+            </div>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="main__profit profit">
+      <div class="profit__inner container">
+        <h2 class="profit__title title">How to get profit?</h2>
+
+       <div class="swiper__wrapper">
+          <div class="swiper" id="offers-slider">
+            <ul class="profit__offers-list offers-list swiper-wrapper">
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Idealica</p>
+                  <img class="offers-list__image" src="img/idealica.png" alt="Idealica">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Maxiflex</p>
+                  <img class="offers-list__image" src="img/maxiflex.png" alt="Maxiflex">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Naravis</p>
+                  <p class="offers-list__title">Blackmaca</p>
+                  <img class="offers-list__image" src="img/blackmaca.png" alt="Blackmaca">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Diolix Caps</p>
+                  <img class="offers-list__image" src="img/diolix.png" alt="Diolix Caps">
+                </div>
+              </li>  
+
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Idealica</p>
+                  <img class="offers-list__image" src="img/idealica.png" alt="Idealica">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Maxiflex</p>
+                  <img class="offers-list__image" src="img/maxiflex.png" alt="Maxiflex">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Naravis</p>
+                  <p class="offers-list__title">Blackmaca</p>
+                  <img class="offers-list__image" src="img/blackmaca.png" alt="Blackmaca">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Diolix Caps</p>
+                  <img class="offers-list__image" src="img/diolix.png" alt="Diolix Caps">
+                </div>
+              </li>  
+
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Idealica</p>
+                  <img class="offers-list__image" src="img/idealica.png" alt="Idealica">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Maxiflex</p>
+                  <img class="offers-list__image" src="img/maxiflex.png" alt="Maxiflex">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Naravis</p>
+                  <p class="offers-list__title">Blackmaca</p>
+                  <img class="offers-list__image" src="img/blackmaca.png" alt="Blackmaca">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Diolix Caps</p>
+                  <img class="offers-list__image" src="img/diolix.png" alt="Diolix Caps">
+                </div>
+              </li>  
+
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Idealica</p>
+                  <img class="offers-list__image" src="img/idealica.png" alt="Idealica">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Maxiflex</p>
+                  <img class="offers-list__image" src="img/maxiflex.png" alt="Maxiflex">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Naravis</p>
+                  <p class="offers-list__title">Blackmaca</p>
+                  <img class="offers-list__image" src="img/blackmaca.png"  alt="Blackmaca">
+                </div>
+              </li>
+    
+              <li class="offers-list__item swiper-slide">
+                <div class="offers-list__item-inner">
+                  <p class="offers-list__category">Health</p>
+                  <p class="offers-list__title">Diolix Caps</p>
+                  <img class="offers-list__image" src="img/diolix.png"  alt="Diolix Caps">
+                </div>
+              </li>  
+            </ul>
+  
+            
+            <div class="swiper-pagination"></div>
+          </div>
+          <button class="prev-slide-button swiper-button-prev" type="button"></button>
+          <button class="next-slide-button swiper-button-next" type="button"></button>
+       </div>
+
+       <dl class="profit__advantages">
+          <div class="profit__advantages-item">
+            <dt>Choose your offer</dt>
+            <dd>When you have more than 700 offers to choose from direct advertise, it's a piece of cake</dd>
+          </div>
+
+          <div class="profit__advantages-item">
+            <dt>Start traffic</dt>
+            <dd>A well-chosen promo is your key to your ROI day or weekly payouts are available</dd>
+          </div>
+
+          <div class="profit__advantages-item">
+            <dt>Take your money</dt>
+            <dd>Receive your money when it's needed - same-day or weekly payouts are available</dd>
+          </div>
+       </dl>
+      </div>
+    </section>
+
+    <section class="main__steps steps">
+      <div class="steps__inner container">
+        <h2 class="steps__title title">Leave the rest with us:</h2>
+  
+        <p class="steps__description">Leadreaktor manage all the processes: from developing hot offers to delivering products to сustomers. We have everything under control:</p>
+  
+        <dl class="steps__cards">
+          <div class="steps__card steps__card--small-line">
+            <dt>Step 1.  Product Development</dt>
+            <dd>We have a clear understanding of th
+              e market' peculiarities and the minds your service</dd>
+          </div>
+  
+          <div class="steps__card steps__card--small-line">
+            <dt>Step 2.  Manufacturing</dt>
+            <dd>Local production facilities with complete control over the process to create the top-quality products</dd>
+          </div>
+  
+          <div class="steps__card steps__card--big-line">
+            <dt>Step 3.  Landing pages</dt>
+            <dd>We design, adapt, and localise the most conversion-focused landing pages specifically for you</dd>
+          </div>
+  
+          <div class="steps__card steps__card--small-line">
+            <dt>Step 4.  Traffic</dt>
+            <dd>It's your turn to start attracting traffic Our call center employees are native speakers</dd>
+          </div>
+  
+          <div class="steps__card steps__card--small-line">
+            <dt>Step 5.  Call Center</dt>
+            <dd>In-house call centers with native speakers who know how to sell get in touch</dd>
+          </div>
+  
+          <div class="steps__card steps__card--big-line">
+            <dt>Step 6.  Chain Management</dt>
+            <dd>In-house logistics service with fulfillment will deliver your order to any location ASAP</dd>
+          </div>
+  
+          <div class="steps__card steps__card--small-line">
+            <dt>Step 7. Take your money</dt>
+            <dd>Finally, you receive your honestly earned money into your account to $45 per approved lead</dd>
+          </div>
+  
+          <div class="steps__card">
+            <p>Join Leadreaktor and make real money!</p>
+  
+            <a class="button button--yellow register-button" href="signup.html">Sign up</a>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="main__money money">
+      <div class="money__inner container">
+        <h2 class="money__title title">How to receive money?</h2>
+  
+        <p class="money__description">
+          Make a request on the platform for minimum 100$ and get your money! We work with all popular payment systems and we have no hidden fees.
+        </p>
+  
+        <ul class="money__list">
+          <li class="money__item">
+            <div>
+              <img src="img/visa.svg" alt="Visa">
+            </div>
+          </li>
+  
+          <li class="money__item">
+            <div>
+              <img src="img/wire-transfer.svg" alt="Wire Transfer">
+            </div>
+          </li>
+  
+          <li class="money__item">
+            <div>
+              <img src="img/mastercard.svg" alt="Masrtercard">
+            </div>
+          </li>
+  
+          <li class="money__item">
+            <div>
+              <img src="img/paypal.svg" alt="PayPal">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="main__events events">
+      <h2 class="events__title title">Upcoming events</h2>
+
+      <div class="swiper__wrapper">
+        <div class="swiper events__swiper-wrapper" id="events-slider">
+          <ul class="events__list swiper-wrapper">
+            <div class="swiper-slide">
+              <li class="events__item events__item--dubai">
+                <div class="events__item-inner">
+                  <p class="events__name">Affiliate World Dubai</p>
+                  <p class="events__location">Dubai</p>
+                </div>
+    
+                <time class="events__date">28 - 29 February 2024</time>
+              </li>
+            </div>
+
+            <div class="swiper-slide">
+              <li class="events__item events__item--cape-town">
+                <div class="events__item-inner">
+                  <p class="events__name">SiGMA AFRICA</p>
+                  <p class="events__location">Cape Town</p>
+                </div>
+    
+                <time class="events__date">11-13 March 2024</time>
+              </li>
+            </div>
+  
+            <div class="swiper-slide">
+              <li class="events__item events__item--moscow">
+                <div class="events__item-inner">
+                  <p class="events__name">BROCONF 3</p>
+                  <p class="events__location">Moscow</p>
+                </div>
+    
+                <time class="events__date">11-12 April 2024</time>
+              </li>
+            </div>
+            <div class="swiper-slide">
+              <li class="events__item events__item--yerevan">
+                <div class="events__item-inner">
+                  <p class="events__name">MAC</p>
+                  <p class="events__location">Yerevan</p>
+                </div>
+    
+                <time class="events__date">30-31 May 2024</time>
+              </li>
+            </div>
+
+            <div class="swiper-slide">
+              <li class="events__item events__item--budapest">
+                <div class="events__item-inner">
+                  <p class="events__name">Affiliate World Europe</p>
+                  <p class="events__location">Budapest</p>
+                </div>
+    
+                <time class="events__date">September 2024</time>
+              </li>
+            </div>
+
+            <div class="swiper-slide">
+              <li class="events__item events__item--bangkok">
+                <div class="events__item-inner">
+                  <p class="events__name">Affiliate World Asia</p>
+                  <p class="events__location">Bangkok</p>
+                </div>
+    
+                <time class="events__date">December 2024</time>
+              </li>
+            </div>
+
+            
+            
+           
+          </ul>
+          <button class="prev-slide-button swiper-button-prev" type="button"></button>
+          <button class="next-slide-button swiper-button-next" type="button"></button>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+     <section class="main__partners partners">
+      <div class="partners__inner container">
+        <h2 class="partners__title title">Our partners</h2>
+
+        <p class="partners__description">We have many partners </p>
+  
+        <ul class="partners__list">
+          <li class="partners__list-item">
+            <img src="img/aff-logo.svg" alt="Aff+ Logo">
+          </li>
+
+          <li class="partners__list-item">
+            <img src="img/a-logo.svg" alt="A Logo">
+          </li>
+
+          <li class="partners__list-item">
+            <img src="img/keitaro-logo.svg" alt="Keitaro Logo">
+          </li>
+
+          <li class="partners__list-item">
+            <img src="img/binom-logo.svg" alt="Binom your pro tracking Logo">
+          </li>
+
+          <li class="partners__list-item">
+            <img src="img/peerclick-logo.svg" alt="Peerclick Logo">
+          </li>
+
+          <li class="partners__list-item">
+            <img src="img/cloak-it-logo.svg" alt="Cloak IT Logo">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="main__socials socials">
+      <div class="socials__inner container">
+        <h2 class="socials__title title">Follow us</h2>
+
+        <p class="socials__description">We have several social network accounts. For more information and the latest news subscribe to one of the social media below</p>
+
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.facebook.com/leadreaktor" target="_blank">
+              <img src="img/facebook.svg" alt="Facebook Logo">
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a class="socials__link" href="https://www.instagram.com/leadreaktor.team/" target="_blank">
+              <img src="img/instagram.svg" alt="Instagram Logo">
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a class="socials__link" href="https://t.me/leadreaktor_cpa" target="_blank">
+              <img src="img/telegram.svg" alt="Telegram Logo">
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a class="socials__link" href="https://affiliateworldforum.com/forum/threads/leadreaktor-com-nutra-direct-advertiser-cod-cpa-latam-europe-africa.55155/" target="_blank">
+              <img src="img/stm.svg" alt="stm. Logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="body__footer footer">
+    <div class="footer__inner container">
+      <address class="footer__address">
+        <p>Leadreaktor, Private CPA Network 14 Tottenham Court Road, Room 67 London, W1T 1J</p>
+        <p>
+          Email: <a href="mailto:support@leadreaktor.com">support@leadreaktor.com</a>
+        </p>
+      </address>
+
+      <p class="footer__office">Our office is open Monday to Friday from 10 a.m to 10 p.m EST.</p>
+
+      <p class="footer__support">24 hour online support.</p>
+
+      <p class="footer__terms"><a href="terms.html" target="_blank">Terms & Conditions</a></p>
+
+      <a class="footer__logo logo" href="#preview">LEAD<span>REAKTOR</span></a>
+
+      <p class="footer__years">© 2016 - 2024 Leadreaktor.com</p>
+    </div>
+  </footer>
+
+  <script src="js/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>

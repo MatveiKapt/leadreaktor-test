@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leadreaktor - Sign Up</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body login-register-body" style="background-color: #181818">
+  <div class="popup-overlay">
+    <div class="popup-blur">
+      <section class="popup popup--register">
+        <p class="popup__top-text">
+          <span>Welcome</span> <br>
+          Use these awesome forms to<br> create a new account
+        </p>
+  
+        <div class="popup__inner">
+          <p class="popup__logo logo">LEAD<span>REAKTOR</span></p>
+  
+          <form class="popup__form form" id="register-form" action="#" method="POST">
+            <fieldset class="form__fieldset">
+              <legend class="form__legend">
+                <h2>Sign up</h2>
+              </legend>
+  
+              <ul class="form__list">
+                <li class="form__list-item">
+                  <label class="form__label" for="register-email">Email*</label>
+  
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input" id="register-email" type="email" placeholder="Your email address" required>
+                    </div>
+                  </div>
+                </li>
+  
+                <li class="form__list-item">
+                  <label class="form__label" for="register-password">Password*</label>
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input form__input--password" id="register-password" type="password" placeholder="Your password" required>
+    
+                      <button class="form__show-password-button show-register-password"  id="show-register-password" type="button" aria-label="Show password"></button>
+                    </div>
+                  </div>
+                </li>
+  
+                <li class="form__list-item">
+                  <label class="form__label" for="register-telegram">Telegram*</label>
+  
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input" id="register-telegram" type="text" placeholder="Your username" required>
+                    </div>
+                  </div>
+                </li>
+  
+                <li class="form__list-item">
+                  <label class="form__label" for="register-skype">Skype</label>
+  
+                  <div class="form__input-border">
+                    <div class="form__input-wrapper">
+                      <input class="form__input" id="register-skype" type="text" placeholder="Your login">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </fieldset>
+  
+            <div class="g-recaptcha" data-sitekey="0000000000000000000000"></div>
+  
+            <button class="form__submit button button--yellow" type="submit">Register</button>
+          </form>
+  
+          <p class="popup__bottom">Already have an account?  <a class="login-button" href="login.html">Sign in</a></p>
+        </div>
+  
+        <a class="popup__close-button" href="index.html">
+          <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.646446 4.14645C0.451184 4.34171 0.451184 4.65829 0.646446 4.85355L3.82843 8.03553C4.02369 8.2308 4.34027 8.2308 4.53553 8.03553C4.7308 7.84027 4.7308 7.52369 4.53553 7.32843L1.70711 4.5L4.53553 1.67157C4.7308 1.47631 4.7308 1.15973 4.53553 0.964466C4.34027 0.769204 4.02369 0.769204 3.82843 0.964466L0.646446 4.14645ZM11 4L1 4V5L11 5V4Z" fill="white"/>
+            </svg>
+          Back
+        </a>
+      </section>
+    </div>
+  </div>
+  
+  <script src="js/popup.js"></script>
+  <script src="js/form.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+</body>
+</html>
