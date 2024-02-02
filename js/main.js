@@ -22,7 +22,7 @@ function setPreviewHeightInPixel() {
 setPreviewHeightInPixel(); 
 
 
-//window.addEventListener('resize', setPreviewHeightInPixel);
+window.addEventListener('resize', setPreviewHeightInPixel);
 
 const removeSlidesForMobile = (slidesArray, slidesList, needSlidesCount) => {
   const offersForMobile = Array.from(slidesArray).slice(0, needSlidesCount);
